@@ -16,10 +16,12 @@ import image_49 from "./Assessts/image_49.png"
 import image_50 from "./Assessts/image_50.png"
 import main from "./Assessts/main.png"
 import Tick from "./Assessts/Tick.png"
-import home from "./Assessts/home.png"
-import school from "./Assessts/school.png"
+import building from "./Assessts/building.mp4"
+import building1 from "./Assessts/building1.mp4"
+import realestate from "./Assessts/realestate.png"
 import visit from "./Assessts/visit.png"
 import bg from "./Assessts/bg.jpg"
+import house from "./Assessts/house.mp4"
 
 function App() {
   return (
@@ -29,8 +31,9 @@ function App() {
       </div>
       <Navbar></Navbar>
       {/* initial reviews */}
+      <div className='absolute top-72 -z-10'><img className=' opacity-30 rotate-6' src={bg} /></div> {/*//background image */}
       <div className='flex justify-between px-72 py-7 '>
-        <img className='absolute top-96 left-7 -z-40 opacity-30 rotate-12 w-auto h-auto' src={bg} /> {/*//background image */}
+       
         {/* 1 */}
         <div className='flex flex-col  gap-1'>
           <div className='flex justify-center'>
@@ -102,18 +105,18 @@ function App() {
         <img className='absolute px-40 py-10 z-10' src={main} />
         <img className='absolute px-35 py-10 right-0 z-20' src={image_47} />
         <img className='absolute px-35 py-0 right-52 rotate-12' src={image_48} />
-        <img className='absolute px-35 py-10 top-48 left-8 z-50 rotate-45' src={image_49} />
+        <img className='absolute px-35 py-10 top-48 left-8 z-40 rotate-45' src={image_49} />
         <img className='absolute px-35 py-10 top-5 left-24 z-30 rotate-12' src={image_50} />
       </div>
       </div>
       {/* Section3*/}
       <div className='py-96'>
-        <div className='py-64 flex gap-16 justify-center items-center'>
-         <div className='flex gap-4'> <img className="w-14 h-14" src={school}/>
+        <div className='py-80 flex gap-56 justify-center items-center bg-white'>
+         <div className='flex gap-4 w-24 h-24 items-center justify-center bg-slate-200'> <video src={building}/>
           <p>Single and multiple house renting</p></div>
-          <div className='flex gap-4'>  <img src={home}/>
+          <div className='flex gap-4 w-24 h-24 items-center justify-center  bg-slate-200'>  <video src={building1}/>
           <p>Dormitory and rental housing</p></div>
-          <div className='flex gap-4'>  <img src={visit}/>
+          <div className='flex gap-4 w-24 h-24 items-center justify-center  bg-slate-200'> <video src={building1}/>
           <p>Commercial Renting</p></div>
         </div>
       </div>
