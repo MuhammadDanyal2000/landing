@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo1 from "../Assessts/Logo1.png"
+import Logo from "../Assessts/Logo.png"
 const Navbar = () => {
   return (
     <div className='text-black flex justify-between gap-3 px-5 py-7 items-center max-w-full'>
         <div>
-            <img className='w-30 h-24' src={Logo1}/>
+            <img className='w-32 h-32 sm:w-40 sm:h-40' src={Logo}/>
         </div>
-        <div className='flex justify-between gap-6 items-center'>
+        <div className='hidden flex justify-between gap-6 items-center font-sans- font-medium text-gray-900 sm:visible'>
             <p>Features</p>
             <p>Made for</p>
             <p>Resources</p>

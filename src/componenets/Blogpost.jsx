@@ -2,6 +2,11 @@ import React from 'react'
 
 const Blogpost = () => {
   return (
+    <div>
+    <div className='flex flex-col justify-center items-center gap-5 px-5 py-9 text-center animate-slidein'>
+        <h1 className='text-7xl  font-extrabold px-2'>Read about  <span className='text-blue-500 glassy-text'>Our services</span></h1>
+        <h1 className='text-7xl font-extrabold' >Here.</h1>
+        <p className='text-center text-gray-500 font-medium'>Streamline rentals with lightning e-signatures, real-time chat, and unstoppable calendar control. Elevate your landlord game today</p></div>
 <div className='flex flex-wrap justify-evenly items-stretch gap-6 py-20 '>
     <div class=" h-fit">
   <div class="relative flex w-full h-fit max-w-[32rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -13,7 +18,7 @@ const Blogpost = () => {
       />
     </div>
     <div class="p-6">
-      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-blue-700 antialiased">
         startups
       </h6>
       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
@@ -27,7 +32,7 @@ const Blogpost = () => {
       </p>
       <a class="inline-block" href="#">
         <button
-          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-700 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           Learn More
@@ -62,7 +67,7 @@ const Blogpost = () => {
       />
     </div>
     <div class="p-6">
-      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-blue-700 antialiased">
         startups
       </h6>
       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
@@ -76,7 +81,7 @@ const Blogpost = () => {
       </p>
       <a class="inline-block" href="#">
         <button
-          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-700 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           Learn More
@@ -111,7 +116,7 @@ const Blogpost = () => {
       />
     </div>
     <div class="p-6">
-      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-blue-700 antialiased">
         startups
       </h6>
       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
@@ -125,7 +130,7 @@ const Blogpost = () => {
       </p>
       <a class="inline-block" href="#">
         <button
-          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-700 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           Learn More
@@ -160,7 +165,7 @@ const Blogpost = () => {
       />
     </div>
     <div class="p-6">
-      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+      <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-blue-700 antialiased">
         startups
       </h6>
       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
@@ -174,7 +179,7 @@ const Blogpost = () => {
       </p>
       <a class="inline-block" href="#">
         <button
-          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-700 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           Learn More
@@ -201,6 +206,7 @@ const Blogpost = () => {
 </div>
  
   
+</div>
 </div>
   )
 }

@@ -3,6 +3,8 @@ import React from 'react'
 const Testinomial = () => {
   return (
     <div className='py-10 px-6'>
+    <h1 className='text-5xl font-extrabold font-sans text-sky-600 leading-snug text-center py-5 '>Testinomials</h1>
+
     <div class="flex items-center -space-x-4">
     <img
       alt="user 1"

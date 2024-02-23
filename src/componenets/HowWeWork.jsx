@@ -3,7 +3,8 @@ import React from 'react'
 const HowWeWork = () => {
   return (
     <div class="min-h-screen bg-gradient-to-r from-sky-200 to-blue-700 py-20">
-        <h1 class="text-5xl font-bold text-center pb-10"><span class="text-blue-900">How</span> We work</h1>
+        <div className='flex flex-col justify-center items-center gap-5 px-5 py-9 text-center animate-slidein'>
+        <h1 className='text-7xl  font-extrabold px-2'>How we Work </h1></div>
 
         <div class="max-w-6xl mx-auto flex flex-col gap-10 px-5">
             <div class="flex flex-col md:flex-row bg-white   rounded-xl md:bg-transparent shadow-lg shadow-black/20 md:shadow-none gap-10">

@@ -2,7 +2,13 @@ import React from 'react'
 
 const Chat = () => {
   return (
+    <div className='py-6'>
+    <div className='flex flex-col justify-center items-center gap-5 px-5 py-9 text-center animate-slidein'>
+        <h1 className='text-7xl  font-extrabold px-2'>Ready To <span className='text-blue-500 glassy-text'>Take it</span></h1>
+        <h1 className='text-7xl font-extrabold' >To next level.</h1></div>
+        <p className='text-center'> Here We will be including interacting video of E signature, kanban, calender etc for now I have only included chat </p>
     <div class="flex h-screen overflow-hidden px-14 py-8">
+    
         <div class="w-1/4 bg-white border-r border-gray-300">
           <header class="p-4 border-b border-gray-300 flex justify-between items-center bg-indigo-600 text-white">
             <h1 class="text-2xl font-semibold">Chat Web</h1>
@@ -237,6 +243,7 @@ const Chat = () => {
                        
             
         </div>
+    </div>
     </div>
   )
 }

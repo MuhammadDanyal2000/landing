@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo1 from "../Assessts/Logo1.png"
+import Logo from "../Assessts/Logo.png"
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
-        <img class="w-20 h-20" src={Logo1} alt="Company name"/>
+        <img class="w-36 h-36" src={Logo} alt="Company name"/>
         <p class="text-sm leading-6 text-gray-600">Making football look better to the world and a more respecful game.</p>
         <div class="flex space-x-6">
           <a href="#" class="text-gray-400 hover:text-gray-500">
