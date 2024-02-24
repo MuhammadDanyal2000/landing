@@ -49,14 +49,16 @@ function App() {
   
   return (
     <>
-      <div className="bg-sky-800 font-bold text-white text-center py-5 text-lg w-auto">
+      <div className="bg-sky-800 font-bold text-white text-center py-5 text-base w-auto">
       <p className="overflow-hidden">
   <span className='inline-block animate-slidein font-sans'> Get <span className='underline'>25%</span> off for 12 months: Use ### when you signup </span>
 </p>
       </div>
+      <div className=' mx-6 md:mx-auto max-w-screen-lg'>
       <Navbar></Navbar>
+      <div className=' mx-5'>
       {/* initial reviews */}
-      <div className='absolute  top-60 -z-10 overflow-hidden'><img className=' opacity-10 w-screen h-auto max-w-full min-w-full hidden rotate-6 sm:visible' src={bg} /></div> 
+      <div className='absolute  top-60 -z-10 overflow-hidden'><img className=' opacity-10 w-screen h-auto max-w-full min-w-full hidden rotate-6 md:visible' src={bg} /></div> 
       <div className='flex justify-around flex-col gap-2 scroll-px-9 py-7 animate1 sm:flex-row'>
 
         {/* 1 */}
@@ -71,17 +73,7 @@ function App() {
           <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
         </div>
         {/* 2 */}
-        <div className='flex flex-col  gap-1'>
-          <div className='flex justify-center'>
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-          </div>
-          <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
-        </div>
-        {/* 3 */}
+        <div className='hidden sm:block'>
         <div className='flex flex-col gap-1'>
           <div className='flex justify-center'>
             <img className='h-5 w-5' src={Star} />
@@ -92,12 +84,26 @@ function App() {
           </div>
           <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
         </div>
+        </div>
+        {/* 3 */}
+        <div className='hidden sm:block'>
+        <div className='flex flex-col gap-1'>
+          <div className='flex justify-center'>
+            <img className='h-5 w-5' src={Star} />
+            <img className='h-5 w-5' src={Star} />
+            <img className='h-5 w-5' src={Star} />
+            <img className='h-5 w-5' src={Star} />
+            <img className='h-5 w-5' src={Star} />
+          </div>
+          <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
+        </div>
+        </div>
       </div>
 
       {/* Section1 */}
       <div className='flex flex-col justify-center items-center gap-5 px-5 py-9 text-center animate-slidein'>
-        <h1 className='text-7xl  font-extrabold px-2'>Elevate Your  <span className='text-blue-500 glassy-text'>Rental Game.</span></h1>
-        <h1 className='text-7xl font-extrabold' >Your Power Platform Awaits.</h1>
+        <h1 className='text-3xl md:text-5xl font-extrabold '>Elevate Your  <span className='text-blue-500 glassy-text'>Rental Game.</span></h1>
+        <h1 className='text-3xl md:text-5xl font-extrabold' >Your Power Platform Awaits.</h1>
         <p className='text-center text-gray-500 font-medium'>Streamline rentals with lightning e-signatures, real-time chat, and unstoppable calendar control. Elevate your landlord game today</p>
         <div className='flex flex-col items-center gap-4 sm:flex-row '>
           <div className='flex items-center gap-1'>
@@ -496,6 +502,8 @@ function App() {
 </div>
 <Pricing/>
 {/* Section18 */}
+</div>
+</div>
 {/* Footer */}
 <Footer/>
 
