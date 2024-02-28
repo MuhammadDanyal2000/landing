@@ -2,9 +2,13 @@ import React from 'react'
 
 const Testinomial = () => {
   return (
-    <div className='py-10 px-6'>
-    <h1 className='text-5xl font-extrabold font-sans text-sky-600 leading-snug text-center py-5 '>Testinomials</h1>
-
+    <div className='py-12 px-6'>
+ <div className='flex gap-8 flex-col text-center '>
+        <h1 className='text-3xl md:text-5xl lg:text-6xl sm:4xl font-extrabold whitespace-no-wrap '>Don't just take our <span className='text-blue-800'>word</span> for it
+      </h1>
+ 
+        <p className=' text-gray-500 font-medium '>Our customers and agency partners back it up​</p>
+     </div>
     <div class="flex items-center -space-x-4">
     <img
       alt="user 1"
@@ -38,72 +42,287 @@ const Testinomial = () => {
     500+ satisfied customer. Look what they have to say
       </div>
   </div>
-    <section class=" flex min-h-fit dark:bg-neutral-800">
+  <div className='flex flex-col gap-20 items-center'>
+  <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+  <div class="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
+    <img
+      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80"
+      alt="tania andrew"
+      class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
+    />
     
-            <div class="container mx-auto px-4">
-                <div class="flex flex-col lg:flex-row items-center justify-between">
-                  
-                    <div class="mb-8 lg:mb-0 lg:w-1/2">
-                        <h2 class="text-3xl font-semibold mb-2">Lorem ipsum <span class="text-blue-700 underline underline-offset-4">dolor</span> sit amet, consectetur adipiscing elit. </h2>
-                        <p class="font-light">Lorem ipsum</p>
-                      
-                            <div class="flex gap-3 mt-2">
-                                <a href="https://www.linkedin.com/in/" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </a>
-                                <a href="https://www.instagram.com/" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="https://twitter.com/" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                                <a href="https://discordapp.com/" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                    <i class="fa-brands fa-discord"></i>
-                                </a>
-                            </div>
-                    </div>
-                 
-                    <div class="max-w-xl">
-                        <div class=" dark:bg-gray-800 p-6 rounded-lg shadow-xl">
-                            <p class="text-lg">
-                                Lorem ipsum sit amet, consectetur adipiscing elit. Magni assumenda officiis sit amet itaque eveniet accusantium corporis tempora.
-                            </p>
-                        
-                            <div class="flex mt-4 justify-end">
-                                <div class="w-14 h-14 mr-4 md:w-16 md:h-16">
-                                    <img class="rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRreh9Fwfj6mP6s9CINDCpfUXmi6OrRXJoD8fFI7BV01mzbbC1FhW5MLGQZYgH9PJ8UhC0&usqp=CAU" alt="John Doe Profile Picture"/>
-                                </div>
-                                <div class="md:text-lg">
-                                    <div class="flex flex-row">
-                                        <p class="font-semibold mr-2">
-                                            John Doe
-                                        </p>
-                                        <div class="flex gap-3">
-                                            <a href="#" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                                <i class="fa-brands fa-linkedin"></i>
-                                            </a>
-                                            <a href="#" class="dark:hover:text-blue-500 transition-colors duration-75" target="_blank">
-                                                <i class="fa-brands fa-twitter"></i>
-                                            </a>
-                                        </div>                        
-                                    </div>
-        
-                                    <p class=" text-sm">
-                                        CEO | company
-                                        <a href="#" class="hover:underline hover:cursor-pointer hover:text-blue-500 transition-colors duration-75">
-                                            Tech Company Z 
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="flex w-full flex-col gap-0.5">
+      <div class="flex items-center justify-between">
+        <h5 class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+          Tania Andrew
+        </h5>
+        <div class="5 flex items-center gap-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <p class="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
+        Frontend Lead @ Google
+      </p>
+    </div>
+  </div>
+  <div class="mb-6 p-0">
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      "I found solution to all my design needs from Danial. I use them
+      as a freelancer in my hobby projects for fun!!"
+    </p>
+  </div>
+</div>
+ <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+  <div class="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
+    <img
+      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80"
+      alt="tania andrew"
+      class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
+    />
+    
+    <div class="flex w-full flex-col gap-0.5">
+      <div class="flex items-center justify-between">
+        <h5 class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+          Tania Andrew
+        </h5>
+        <div class="5 flex items-center gap-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <p class="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
+        Frontend Lead @ Google
+      </p>
+    </div>
+  </div>
+  <div class="mb-6 p-0">
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      "I found solution to all my design needs from Danial. I use them
+      as a freelancer in my hobby projects for fun!!"
+    </p>
+  </div>
+</div>
+  <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+  <div class="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
+    <img
+      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80"
+      alt="tania andrew"
+      class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
+    />
+    
+    <div class="flex w-full flex-col gap-0.5">
+      <div class="flex items-center justify-between">
+        <h5 class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+          Tania Andrew
+        </h5>
+        <div class="5 flex items-center gap-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-5 w-5 text-yellow-700"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <p class="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased">
+        Frontend Lead @ Google
+      </p>
+    </div>
+  </div>
+  <div class="mb-6 p-0">
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      "I found solution to all my design needs from Danial. I use them
+      as a freelancer in my hobby projects for fun!!"
+    </p>
+  </div>
+</div>
+</div>
         </div>
   )
 }

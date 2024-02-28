@@ -2,9 +2,9 @@ import React from 'react'
 import Logo from "../Assessts/Logo.png"
 const Navbar = () => {
   return (
-    <div className='text-black flex justify-between gap-3 px-5 py-7 items-center max-w-full'>
+    <div className='text-black flex justify-between gap-2 py-1 items-center max-w-full md:py-2 md:px-4 '>
         <div>
-            <img className='w-32 h-32 sm:w-40 sm:h-40' src={Logo}/>
+            <img className='w-32 h-32 sm:w-40 sm:h-40' src="" alt='logo'/>
         </div>
         <div className='hidden md:block'>
         <div className='flex justify-between gap-6 items-center font-sans- font-medium text-gray-900 '>

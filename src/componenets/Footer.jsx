@@ -1,4 +1,5 @@
 import React from 'react'
+import image_120 from "../Assessts/image_120.png"
 import Logo from "../Assessts/Logo.png"
 
 const Footer = () => {
@@ -8,8 +9,8 @@ const Footer = () => {
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
-        <img class="w-36 h-36" src={Logo} alt="Company name"/>
-        <p class="text-sm leading-6 text-gray-600">Making football look better to the world and a more respecful game.</p>
+        <img class="w-36 h-36" src={image_120} alt="Company name"/>
+        <p class="text-sm leading-6 text-gray-600">lorem epsum bilhu jsjh.</p>
         <div class="flex space-x-6">
           <a href="#" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Facebook</span>
@@ -120,7 +121,7 @@ const Footer = () => {
       </div>
     </div>
     <div class=" flex items-center justify-center mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-      <p class="text-xs leading-5 text-gray-500">&copy; 2024 Enkelutleie, Inc. All rights reserved. danyalhafeez46@gmail.com</p>
+      <p class="text-xs leading-5 text-gray-500">&copy; 2024 jsdjekjk, Inc. All rights reserved. danyalhafeez46@gmail.com</p>
     </div>
   </div>
 </footer>

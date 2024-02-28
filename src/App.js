@@ -43,68 +43,42 @@ import AIchat from './componenets/AIchat';
 import Footer from './componenets/Footer';
 import Logo1 from "./Assessts/Logo1.png"
 import Pricing from './componenets/Pricing';
+import Metrics from './componenets/Metrics';
+import Integratiopn from './componenets/Integratiopn';
+import image_21 from "./Assessts/image_21.jpeg"
+import image_24 from "./Assessts/image_24.jpeg"
 
 function App() {
   const [cookies, setCookies] = useState(true);
   
   return (
     <>
-      <div className="bg-sky-800 font-bold text-white text-center py-5 text-base w-auto">
+      <div className="bg-sky-800 font-bold text-white text-center py-3 text-base w-auto">
       <p className="overflow-hidden">
   <span className='inline-block animate-slidein font-sans'> Get <span className='underline'>25%</span> off for 12 months: Use ### when you signup </span>
 </p>
       </div>
-      <div className=' mx-6 md:mx-auto max-w-screen-lg'>
+      <div className=' mx-2 md:mx-auto max-w-screen-xl'>
       <Navbar></Navbar>
       <div className=' mx-5'>
       {/* initial reviews */}
-      <div className='absolute  top-60 -z-10 overflow-hidden'><img className=' opacity-10 w-screen h-auto max-w-full min-w-full hidden rotate-6 md:visible' src={bg} /></div> 
-      <div className='flex justify-around flex-col gap-2 scroll-px-9 py-7 animate1 sm:flex-row'>
-
-        {/* 1 */}
-        <div className='flex flex-col gap-1 '>
-          <div className='flex justify-center '>
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-          </div>
-          <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
-        </div>
-        {/* 2 */}
-        <div className='hidden sm:block'>
-        <div className='flex flex-col gap-1'>
-          <div className='flex justify-center'>
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-          </div>
-          <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
-        </div>
-        </div>
-        {/* 3 */}
-        <div className='hidden sm:block'>
-        <div className='flex flex-col gap-1'>
-          <div className='flex justify-center'>
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-            <img className='h-5 w-5' src={Star} />
-          </div>
-          <p className='font-sans text-gray-500 text-center '>"Amazing Renting System"</p>
-        </div>
-        </div>
-      </div>
+      
 
       {/* Section1 */}
-      <div className='flex flex-col justify-center items-center gap-5 px-5 py-9 text-center animate-slidein'>
-        <h1 className='text-3xl md:text-5xl font-extrabold '>Elevate Your  <span className='text-blue-500 glassy-text'>Rental Game.</span></h1>
-        <h1 className='text-3xl md:text-5xl font-extrabold' >Your Power Platform Awaits.</h1>
-        <p className='text-center text-gray-500 font-medium'>Streamline rentals with lightning e-signatures, real-time chat, and unstoppable calendar control. Elevate your landlord game today</p>
+      <div className='flex flex-col justify-center items-center gap-8  py-5 animate-slidein bg'>
+      <div className='flex gap-8 flex-col max-w-4xl mx-auto'>
+        <h1 className='text-3xl md:text-5xl lg:text-6xl sm:4xl font-extrabold whitespace-no-wrap '>Tracking e-commerce <span className='text-blue-500 glassy-text text-shadow-md'>performance.</span>
+        <br/>with real-time profit overview.</h1>
+        <div className='flex flex-col gap-3'>
+        <p className=' text-gray-500 font-medium '>We calculate the gross profit per order and provide you with:</p>
+        <div>
+        <p className=' text-gray-500 font-medium'>1. Profit data in Google Ads and Facebook Ads to activate POAS® bidding</p>
+        <p className=' text-gray-500 font-medium'>2. A realtime profit dashboard for profitability management</p>
+        <p className=' text-gray-500 font-medium'>3. Best practice server-side tracking</p>
+        </div>
+        <p className=' text-gray-500 font-medium'>Our customers have saved up to 60% on ad spend by cutting the unprofitable ads alone.</p>
+        </div>
+        </div>
         <div className='flex flex-col items-center gap-4 sm:flex-row '>
           <div className='flex items-center gap-1'>
             <img className='h-5 w-5' src={image_34} />
@@ -127,19 +101,21 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='py-5 '>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Get Started</button></div>
+        <div className='py-5 flex gap-3 '>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Get Started</button>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Book a Demo</button></div>
+
       </div>
       {/* Section2 */}
-      <div >
-        <div className=' flex justify-center px-6 py-0 min-w-fit sm:px-20'>
+      {/* <div >
+        <div className=' flex justify-center py-0 px-3 min-w-fit sm:max-w-screen-sm sm:px-5 md:px-9'>
           <img className=' px-0 py-10 z-10 object-cover shadow-sky-200 min-w- max-h-fit transition duration-500 ease-in-out -rotate-3 hover:rotate-0 ' src={main} />
           {/* <img className='relative px-35 py-10 right-0 z-20' src={image_47} />
           <img className='relative px-35 py-0 right-52 rotate-12' src={image_48} />
           <img className='relative px-35 py-10 top-48 left-8 z-40 rotate-45' src={image_49} />
           <img className='relative px-35 py-10 top-5 left-24 z-30 rotate-12' src={image_50} /> */}
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */} 
 
       {/* Section3*/}
       {/* <div className='py-12 px-6 overflow-hidden'>
@@ -160,63 +136,53 @@ function App() {
             <button className="mt-6 bg-[#7e98f833] text-[#1134b4df] font-bold text-lg py-3 px-20 rounded-full items-center font-sans">
               Solution
             </button>
-            <h1 className="font-poppins font-extrabold text-5xl text-sky-900   text-center">Features</h1>
+            <h1 className="font-poppins font-extrabold text-2xl md:text-5xl sm:4xl lg:text-6xl text-sky-900   text-center">Features</h1>
             <p className="font-poppins text-lg text-center text-gray-500">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
           </div>
           <div className="flex gap-8 flex-wrap justify-center max-[872px]:flex-col ">
+           
             <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-              <div className="rounded-2xl bg-[#FF625033] p-5"><img className="w-10 h-10" src={image_33}></img></div>
+              <div className=""><img className="w-20 h-20" src={image_119}></img></div>
               <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
               <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
             </div>
             <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-              <div className="rounded-2xl bg-[#FF625033] p-5"><img className="w-10 h-10" src={image_34}></img></div>
-              <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-              <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
-            </div>
-            <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-              <div className="rounded-2xl bg-[#FF625033] p-5"><img className="w-10 h-10" src={image_35}></img></div>
-              <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-              <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
-            </div>
-            <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-              <div className="rounded-2xl bg-[#FF625033] p-5"><img className="w-10 h-10" src={image_36}></img></div>
+              <div className=""><img className="w-20 h-20" src={image_120}></img></div>
               <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
               <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
             </div>
 
             <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-              <div className="rounded-2xl bg-[#00937933] p-5"><img className="w-10 h-10" src={image_34}></img></div>
+              <div className=""><img className="w-20 h-20" src={image_121}></img></div>
               <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
               <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
             </div>
             <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-              <div className="rounded-2xl bg-[#F8D57E33] p-5"><img className="w-10 h-10" src={image_37}></img></div>
+              <div className=""><img className="w-20 h-20" src={image_123}></img></div>
               <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-              <p className="text-lg font-Mulish font-normal text-center">c amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+              <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
             </div>
+           
           </div>
         </div>
       </div>
       {/* Section5 */}
       <div className='py-44 px-4 max-w-screen-2xl'>
-      <div className='flex flex-col justify-center items-center gap-5 px-5 py-9 text-center animate-slidein'>
-        <h1 className='text-7xl  font-extrabold px-2'>A Whole New  <span className='text-blue-500 glassy-text'>Way.</span></h1>
-        <h1 className='text-7xl font-extrabold' >To save money and time.</h1>
-        <p className='text-center text-gray-500 font-medium'>Streamline rentals with lightning e-signatures, real-time chat, and unstoppable calendar control. Elevate your landlord game today</p></div>
+      <div className='flex flex-col justify-center items-center gap-5  py-9 text-center animate-slidein'>
+        <h1 className=' font-extrabold px-2 text-3xl md:text-5xl lg:text-6xl sm:4xl  whitespace-no-wrap'>A Whole New  <span className='text-blue-500 glassy-text'>Way.</span></h1>
+        
+        <p className='text-center text-gray-500 font-medium'>Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p></div>
         {/* 1 */}
-        <div className='flex flex-col gap-6 sm:flex-row'>
-          <div className='flex-1 px-14 pt-28'>
-            <div className='flex flex-col gap-6  '>
-              <h1 className='text-5xl font-extrabold font-sans text-sky-900 leading-snug '>Streamline Your Workflow with Effortless E-Signatures!</h1>
-              <p className='text-lg font-semibold  text-gray-500'>Seal deals in seconds. Sign digitally, hassle-free.</p>
-              <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500'>
+        <div className='flex flex-col text-center max-w-lg mx-auto gap-6 lg:max-w-full lg:flex-row lg:text-left'>
+          <div className='flex-1 pt-28'>
+            <div className='flex flex-col gap-6 '>
+              <h1 className='font-sans text-sky-900 leading-snug font-extrabold px-2 text-3xl md:text-4xl lg:text-5xl sm:4xl  whitespace-no-wrap '>REAL-TIME PROFIT DASHBOARD!</h1>
+              <p className='text-lg font-semibold  text-gray-500'>With the click of a button, you can see your daily gross profit, profit after ad spend and even profit after your fixed costs.​ No more spreadsheets - react to changes in your business immediately.</p>
+              <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500 mx-auto'>
                 <div className='flex w-1/2 items-center gap-2'>
                   <img className='w-12 h-12' src={image_119} />
                   <p className='text-center font-bold'>Swift</p>
@@ -236,26 +202,26 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='flex-1'>
-            <img src={image_129} />
+          <div className='flex-1 my-auto'>
+            <img src={image_21} />
           </div>
         </div>
         {/* 2 */}
-        <div className='flex flex-col gap-6 sm:flex-row '>
-          <div className='flex-1'>
-            <img src={image_129} />
+        <div className='flex flex-col-reverse text-center max-w-lg mx-auto gap-6 lg:max-w-full lg:flex-row lg:text-left'>
+          <div className='flex-1 my-auto'>
+            <img src={image_24} />
           </div>
-          <div className='flex-1 px-14 pt-28'>
+          <div className='flex-1 pt-28'>
             <div className='flex flex-col gap-6  '>
-              <h1 className='text-5xl font-extrabold leading-snug text-sky-900'>Engage Instantly: Introducing Live Chat for Seamless Interaction!</h1>
-              <p className='text-lg font-semibold  text-gray-500'>Elevate your website experience with our dynamic Live Chat feature, bridging the gap between you and your audience. Instantly connect, assist, and convert visitors with real-time support and engagement. Maximize your online presence and foster meaningful connections with ease.</p>
-              <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500'>
+              <h1 className=' leading-snug text-sky-900 font-extrabold px-2 text-3xl md:text-4xl lg:text-5xl sm:4xl  whitespace-no-wrap'>Engage Teach Google Ads to find profitable customers</h1>
+              <p className='text-lg font-semibold  text-gray-500'>It will automatically enriches the algorithms with profit data to help them find the most profitable customers and order combinations.​ Set target goals in paid ads based on profit, instead of revenue.</p>
+              <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500 mx-auto'>
                 <div className='flex w-1/2 items-center gap-2'>
                   <img className='w-12 h-12' src={image_122} />
                   <p className='text-center font-bold'>Instantaneous</p>
                 </div>
                 <div className='flex  w-1/2 items-center gap-2'>
-                  <img className='w-12 h-12' src={image_160} />
+                  <img className='w-12 h-12' src={image_161} />
                   <p className='text-center font-bold'>Interactive</p>
                 </div>
                 <div className='flex  w-1/2 items-center gap-2'>
@@ -263,7 +229,7 @@ function App() {
                   <p className='text-center font-bold'>Seamless</p>
                 </div>
                 <div className='flex  w-1/2 items-center gap-2'>
-                  <img className='w-12 h-12' src={image_123} />
+                  <img className='w-12 h-12' src={image_122} />
                   <p className='text-center font-bold'>Engaging</p>
                 </div>.
               </div>
@@ -272,13 +238,13 @@ function App() {
 
         </div>
         {/* 3 */}
-        <div className='flex flex-col-reverse gap-6 sm:flex-row '>
-          <div className='flex-1 px-14 pt-28'>
+        <div className='flex flex-col text-center max-w-lg mx-auto gap-6 lg:max-w-full lg:flex-row lg:text-left '>
+          <div className='flex-1 pt-28'>
             <div className='flex flex-col gap-6  '>
-              <h1 className='text-5xl font-extrabold leading-snug text-blue-900'>Unlock Easy Payments: Your Gateway to Effortless Transactions!</h1>
-              <p className='text-lg font-semibold  text-gray-500'>Say hello to smooth sailing with our cutting-edge payment feature! Seamlessly handle transactions with ease and confidence, ensuring a hassle-free experience every time.</p>
-              <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500'>
-                <div className='flex w-1/2 items-center gap-2 t'>
+              <h1 className='leading-snug text-blue-900 font-extrabold px-2 text-3xl md:text-4xl lg:text-5xl sm:4xl  whitespace-no-wrap'>Unlock Easy Best practice conversion tracking</h1>
+              <p className='text-lg font-semibold  text-gray-500'>We collect and send data via serverside-to-serverside integrations. Perhaps you’ve noticed the discrepancy in conversions between Google ads and your ecommerce platform?</p>
+              <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500 mx-auto'>
+                <div className='flex w-1/2 items-center gap-2 '>
                   <img className='w-12 h-12' src={image_160} />
                   <p className='text-center font-bold'>Effortless</p>
                 </div>
@@ -297,81 +263,18 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='flex-1'>
-            <img className="object-cover" src={image_129} />
+          <div className='flex-1 my-auto'>
+            <img className="object-cover h-fit" src={image_21} />
           </div>
         </div>
       </div>
       {/* Section6 */}
       <ActionCard/>
       {/* Section7 */}
-      <Steps/>
-      {/* Section8 */}
-      {/* <div class="m-2 space-y-2">
-  <div
-    class="group flex flex-col gap-2 rounded-lg bg-black p-5 text-white"
-    tabindex="1"
-  >
-    <div class="flex cursor-pointer items-center justify-between">
-      <span> HTML </span>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
-        class="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
-      />
-    </div>
-    <div
-      class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-    </div>
-  </div>
-
-  <div
-    class="group flex flex-col gap-2 rounded-lg bg-black p-5 text-white"
-    tabindex="2"
-  >
-    <div class="flex cursor-pointer items-center justify-between">
-      <span> CSS </span>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
-        class="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
-      />
-    </div>
-    <div
-      class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-    </div>
-  </div>
-
-  <div
-    class="group flex flex-col gap-2 rounded-lg bg-black p-5 text-white"
-    tabindex="3"
-  >
-    <div class="flex cursor-pointer items-center justify-between">
-      <span> JAVASCRIPT </span>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
-        class="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
-      />
-    </div>
-    <div
-      class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-    </div>
-  </div>
-</div> */}
-
+      {/* <Steps/> */}
+      {/* Section8 Metrics*/}
+   <Metrics/>
+<Integratiopn/>
 {/* Section10 Cookies */}
 
 {cookies && (
@@ -418,27 +321,72 @@ function App() {
 
 
 
-{/* Section11 */}
-<Blogpost/>
+{/* Section11 Integration*/}
+<div className='flex gap-8 flex-col text-center py-10'>
+        <h1 className='text-3xl md:text-5xl lg:text-6xl sm:4xl font-extrabold whitespace-no-wrap '>Integration
+      </h1>
+ 
+        <p className=' text-gray-500 font-medium '>We're constantly developing new integrations to popular ecommerce and marketing platforms.</p>
+     </div>  
+     <div className='py-3 flex justify-evenly flex-wrap gap-8 text-black text-2xl mx-auto max-w-3xl '>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_33}/>
+        <p className='font-extrabold '>Instagram</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_34}/>
+        <p className='font-extrabold '>Facebook</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_35}/>
+        <p className='font-extrabold '>pinterest</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_121}/>
+        <p className='font-extrabold '>shopify</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_122}/>
+        <p className='font-extrabold '>Shopify</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_121}/>
+        <p className='font-extrabold '>Shopify</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_121}/>
+        <p className='font-extrabold '>Shopify</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_121}/>
+        <p className='font-extrabold '>Shopify</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_121}/>
+        <p className='font-extrabold '>Shopify</p>
+      </div>
+      <div className='flex items-center gap-6 bg-white w-fit px-20 py-3 rounded-full'>
+        <img className='w-14 h-14' src={image_121}/>
+        <p className='font-extrabold '>Shopify</p>
+      </div>
+     </div> 
+
 {/* Section12 */}
-<div className='px-9 py-28'>
-<Expand/>
-</div>
 {/* Section13 */}
-<HowWeWork/>
+{/* <HowWeWork/> */}
 {/* Section14 */}
 <Testinomial/>
 {/* Section15 */}
-<Chat/>
+{/* <Chat/> */}
 {/* Section16 */}
-<AIchat/>
+{/* <AIchat/> */}
 {/* Section17 */}
 {/* Section FAQ */}
 <div class="m-2 space-y-2 py-20">
 <h1 className='text-5xl font-extrabold font-sans text-sky-600 leading-snug text-center py-5 '>FAQs</h1>
 
   <div
-    class="group flex flex-col gap-2 rounded-lg bg-blue-300 p-5 text-blue-950 font-bold"
+    class="group flex flex-col gap-2 rounded-lg bg-sky-950 p-5 text-white font-bold"
     tabindex="1"
   >
     <div class="flex cursor-pointer items-center justify-between">
@@ -459,7 +407,7 @@ function App() {
   </div>
 
   <div
-    class="group flex flex-col gap-2 rounded-lg bg-blue-500 p-5 text-blue-950 font-bold"
+    class="group flex flex-col gap-2 rounded-lg bg-sky-950 p-5 text-white font-bold"
     tabindex="2"
   >
     <div class="flex cursor-pointer items-center justify-between">
@@ -480,7 +428,7 @@ function App() {
   </div>
 
   <div
-    class="group flex flex-col gap-2 rounded-lg bg-blue-600 p-5 text-blue-950 font-bold"
+    class="group flex flex-col gap-2 rounded-lg bg-sky-950 p-5 text-white font-bold"
     tabindex="3"
   >
     <div class="flex cursor-pointer items-center justify-between">
