@@ -47,39 +47,50 @@ import Metrics from './componenets/Metrics';
 import Integratiopn from './componenets/Integratiopn';
 import image_21 from "./Assessts/image_21.jpeg"
 import image_24 from "./Assessts/image_24.jpeg"
+import Hero from "./Assessts/Hero.png"
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   const [cookies, setCookies] = useState(true);
   
   return (
+    <BrowserRouter>
     <>
       <div className="bg-sky-800 font-bold text-white text-center py-3 text-base w-auto">
       <p className="overflow-hidden">
   <span className='inline-block animate-slidein font-sans'> Get <span className='underline'>25%</span> off for 12 months: Use ### when you signup </span>
 </p>
       </div>
-      <div className=' mx-2 md:mx-auto max-w-screen-xl'>
+      <div className=''>
+      
       <Navbar></Navbar>
-      <div className=' mx-5'>
+      <div className=''>
       {/* initial reviews */}
       
 
       {/* Section1 */}
-      <div className='flex flex-col justify-center items-center gap-8  py-5 animate-slidein bg'>
-      <div className='flex gap-8 flex-col max-w-4xl mx-auto'>
-        <h1 className='text-3xl md:text-5xl lg:text-6xl sm:4xl font-extrabold whitespace-no-wrap '>Tracking e-commerce <span className='text-blue-500 glassy-text text-shadow-md'>performance.</span>
+      <div className='bg-sky-950'>
+      <div className='flex flex-col justify-center items-center gap-8  py-9 animate-slidein  md:mx-auto max-w-screen-xl'>
+      <div className='flex gap-8 flex-col max-w-4xl mx-auto px-5'>
+        <h1 className='text-3xl md:text-5xl lg:text-6xl sm:4xl font-extrabold whitespace-no-wrap text-white'>Tracking e-commerce <span className='text-green-500 glassy-text text-shadow-md'>performance.</span>
         <br/>with real-time profit overview.</h1>
-        <div className='flex flex-col gap-3'>
-        <p className=' text-gray-500 font-medium '>We calculate the gross profit per order and provide you with:</p>
+        <div className='flex flex-col gap-3 text-white'>
+        <p className=' text-white font-medium '>We calculate the <span className='text-green-500'>gross profit per order</span> and provide you with:</p>
         <div>
-        <p className=' text-gray-500 font-medium'>1. Profit data in Google Ads and Facebook Ads to activate POAS® bidding</p>
-        <p className=' text-gray-500 font-medium'>2. A realtime profit dashboard for profitability management</p>
-        <p className=' text-gray-500 font-medium'>3. Best practice server-side tracking</p>
+        <p className='  font-medium'>1. Profit data in Google Ads and Facebook Ads to <span className='text-green-500'>activate POAS® bidding</span></p>
+        <p className=' font-medium'>2. A <span className='text-green-500'> realtime profit dashboard</span> for profitability management</p>
+        <p className=' font-medium'>3. Best practice  <span className='text-green-500'>server-side tracking</span></p>
         </div>
-        <p className=' text-gray-500 font-medium'>Our customers have saved up to 60% on ad spend by cutting the unprofitable ads alone.</p>
+        <p className=' font-medium'>Our customers have saved up to 60% on ad spend by cutting the unprofitable ads alone.</p>
         </div>
         </div>
-        <div className='flex flex-col items-center gap-4 sm:flex-row '>
+        <div className='py-5 flex gap-3 '>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Get Started</button>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Book a Demo</button></div>
+
+      </div>
+        {/* <div className='flex flex-col items-center gap-4 sm:flex-row '>
+        
           <div className='flex items-center gap-1'>
             <img className='h-5 w-5' src={image_34} />
             <img className='h-5 w-5' src={image_33} />
@@ -90,7 +101,7 @@ function App() {
             <img className='h-5 w-5' src={image_39} />
             <img className='h-5 w-5' src={image_40} />
           </div>
-          <div className='flex items-center gap-1 '><img className='h-5 w-5' src={Tick} /><span className='text-gray-500 font-medium'> Rated 4.9/5</span></div>
+          <div className='flex items-center gap-1 '><img className='h-5 w-5' src={Tick} /><span className='text-white font-medium'> Rated 4.9/5</span></div>
           <div>
             <div className='flex items-center'>
               <img className='h-5 w-5' src={Star} />
@@ -100,11 +111,9 @@ function App() {
               <img className='h-5 w-5' src={Star} />
             </div>
           </div>
-        </div>
-        <div className='py-5 flex gap-3 '>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Get Started</button>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Book a Demo</button></div>
-
+        </div> */}
+        
+        
       </div>
       {/* Section2 */}
       {/* <div >
@@ -455,7 +464,7 @@ function App() {
 {/* Footer */}
 <Footer/>
 
-    </>
+    </></BrowserRouter>
   );
 }
 
