@@ -5,7 +5,7 @@ const Pricing = () => {
     <section>
 	<div class="container max-w-full mx-auto py-24 px-6">
 		<h1
-		class="text-center text-7xl text-blue-500 font-extrabold leading-snug tracking-wider"
+		class="tfont-sans text-3xl md:text-4xl lg:text-5xl sm:4xl font-extrabold whitespace-no-wrap text-gray-800 text-center pb-16"
 		>
 		Pricing
 	</h1>
@@ -25,10 +25,10 @@ const Pricing = () => {
 		class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-mr-4"
 		>
 		<div
-		class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden"
+		class="bg-white text-gray-800 rounded-lg shadow-inner shadow-lg overflow-hidden"
 		>
 		<div
-		class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6"
+		class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
 		>
 		<h1
 		class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
