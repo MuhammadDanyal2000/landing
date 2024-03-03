@@ -5,7 +5,7 @@ const Compnanies = () => {
     <>
     {/* Logos Section: Plain */}
     <div className="  bg-gradient-to-tr from-indigo-100 via-purple-50 to-cyan-100 :from-indigo-950 :via-purple-950 :to-teal-950 :text-gray-100">
-      <div className=" mx-auto px-4 py-16 lg:px-8 lg:py-32  animate-scroll ">
+      <div className=" mx-auto px-4 py-16 lg:px-8 lg:py-32 max-w-screen-xl  animate-scroll ">
         <div className="grid grid-flow-col gap-4 ">
           <div className="flex h-20 items-center justify-center ">
             <div className="flex items-center space-x-2 text-2xl font-semibold">

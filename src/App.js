@@ -67,7 +67,6 @@ function App() {
 
           <Navbar></Navbar>
           <div className=''>
-            {/* initial reviews */}
 
 
             {/* Section1 */}
@@ -91,54 +90,11 @@ function App() {
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50 ">Book a Demo</button></div>
 
               </div>
-              {/* <div className='flex flex-col items-center gap-4 sm:flex-row '>
+             
+
+
+            </div>
         
-          <div className='flex items-center gap-1'>
-            <img className='h-5 w-5' src={image_34} />
-            <img className='h-5 w-5' src={image_33} />
-            <img className='h-5 w-5' src={image_35} />
-            <img className='h-5 w-5' src={image_36} />
-            <img className='h-5 w-5' src={image_37} />
-            <img className='h-5 w-5' src={image_38} />
-            <img className='h-5 w-5' src={image_39} />
-            <img className='h-5 w-5' src={image_40} />
-          </div>
-          <div className='flex items-center gap-1 '><img className='h-5 w-5' src={Tick} /><span className='text-white font-medium'> Rated 4.9/5</span></div>
-          <div>
-            <div className='flex items-center'>
-              <img className='h-5 w-5' src={Star} />
-              <img className='h-5 w-5' src={Star} />
-              <img className='h-5 w-5' src={Star} />
-              <img className='h-5 w-5' src={Star} />
-              <img className='h-5 w-5' src={Star} />
-            </div>
-          </div>
-        </div> */}
-
-
-            </div>
-            {/* Section2 */}
-            {/* <div >
-        <div className=' flex justify-center py-0 px-3 min-w-fit sm:max-w-screen-sm sm:px-5 md:px-9'>
-          <img className=' px-0 py-10 z-10 object-cover shadow-sky-200 min-w- max-h-fit transition duration-500 ease-in-out -rotate-3 hover:rotate-0 ' src={main} />
-          {/* <img className='relative px-35 py-10 right-0 z-20' src={image_47} />
-          <img className='relative px-35 py-0 right-52 rotate-12' src={image_48} />
-          <img className='relative px-35 py-10 top-48 left-8 z-40 rotate-45' src={image_49} />
-          <img className='relative px-35 py-10 top-5 left-24 z-30 rotate-12' src={image_50} /> */}
-            {/* </div> */}
-            {/* </div> */}
-
-            {/* Section3*/}
-            {/* <div className='py-12 px-6 overflow-hidden'>
-        <div className=' py-12 px-6 flex flex-col gap-8 justify-evenly item-center bg-white sm:flex-row'>
-          <div className='flex gap-4 w-24 h-24 items-center justify-center'> <video src={building} />
-            <p>Single & multiple house renting</p></div>
-          <div className='flex gap-4 w-24 h-24 items-center justify-center'> <video src={building1} />
-            <p>Dormitory and rental housing</p></div>
-          <div className='flex gap-4 w-24 h-24 items-center justify-center'> <video src={building1} />
-            <p>Commercial Renting</p></div>
-        </div>
-      </div> */}
 
             {/* Section4 Features */}
             <div>
@@ -176,7 +132,7 @@ function App() {
               </div>
             </div>
             {/* Section Companies */}
-            <Compnanies/>
+            {/* <Compnanies/> */}
             {/* Section5 */}
             <div className='bg-slate-200'>
               <div className='py-10 lg:py-20 px-4 max-w-screen-xl mx-auto flex flex-col gap-6 sm:gap-20 '>
@@ -277,11 +233,8 @@ function App() {
 
             {/* Section6 */}
             <ActionCard />
-            {/* Section7 */}
-            {/* <Steps/> */}
             {/* Section8 Metrics*/}
             <Metrics />
-            <Integratiopn />
             {/* Section10 Cookies */}
 
             {cookies && (
@@ -399,16 +352,10 @@ function App() {
       </div>
       </div>
 
-            {/* Section12 */}
             {/* Section13 */}
             <Last/>
             {/* Section14 */}
             <Testinomial />
-            {/* Section15 */}
-            {/* <Chat/> */}
-            {/* Section16 */}
-            {/* <AIchat/> */}
-            {/* Section17 */}
             {/* Section FAQ */}
             <div class=" m-2 space-y-2 py-20 max-w-screen-xl mx-auto px-5">
             <h1 className="" />
