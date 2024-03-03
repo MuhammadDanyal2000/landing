@@ -72,7 +72,7 @@ function App() {
 
             {/* Section1 */}
             <div className='bg-sky-950'>
-              <div className='flex flex-col justify-center items-center gap-8  py-9 animate-slidein  md:mx-auto max-w-screen-xl'>
+              <div className='flex flex-col justify-center items-center gap-8  py-9 animate-slidein  mx-auto max-w-screen-xl'>
                 <div className='flex gap-8 flex-col max-w-4xl mx-auto px-5'>
                   <h1 className='text-3xl md:text-5xl lg:text-6xl sm:4xl font-extrabold whitespace-no-wrap text-white'>Tracking e-commerce <span className='text-green-500 glassy-text text-shadow-md'>performance.</span>
                     <br />with real-time profit overview.</h1>

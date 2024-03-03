@@ -4,20 +4,20 @@ const Last = () => {
   return (
     <>
     
-      <div className="bg-slate-50 dark:bg-gray-800 dark:text-gray-100">
+      <div className="bg-slate-50 ">
         <div className="container mx-auto grid grid-cols-1 gap-12 px-4 py-16 lg:grid-cols-2 lg:px-14 lg:py-32 xl:max-w-7xl">
           <div className="flex items-center text-center lg:text-left">
             <div className="space-y-8">
               {/* Heading */}
               <div>
-                <div className="mb-1 text-sm font-bold uppercase tracking-wider text-green-600 dark:text-green-500">
+                <div className="mb-1 text-sm font-bold uppercase tracking-wider text-green-600 ">
                   Get Started
                 </div>
-                <h2 className="mb-4 text-4xl font-sans font-black text-gray-800 dark:text-white">
+                <h2 className="mb-4 text-4xl font-sans font-black text-gray-800">
                   Grow your business
-                  <span className="text-green-600 dark:text-green-500"> now</span>!
+                  <span className="text-green-600 "> now</span>!
                 </h2>
-                <h3 className="text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">
+                <h3 className="text-base font-medium leading-relaxed text-gray-700 ">
                   Inspiring results from day one without the pain. Get your own
                   custom dashboard and start building amazing services.
                 </h3>
@@ -28,7 +28,7 @@ const Last = () => {
               <div>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center space-x-2 rounded-full border border-green-700 bg-green-700 px-6 py-3 font-semibold leading-6 text-white hover:border-green-600 hover:bg-green-600 hover:text-white focus:ring focus:ring-green-400 focus:ring-opacity-50 active:border-green-700 active:bg-green-700 dark:focus:ring-green-400 dark:focus:ring-opacity-90"
+                  className="inline-flex items-center justify-center space-x-2 rounded-full border border-green-700 bg-green-700 px-6 py-3 font-semibold leading-6 text-white hover:border-green-600 hover:bg-green-600 hover:text-white focus:ring focus:ring-green-400 focus:ring-opacity-50 active:border-green-700 active:bg-green-700 "
                 >
                   <svg
                     className="hi-mini hi-plus-circle inline-block size-5 opacity-50"

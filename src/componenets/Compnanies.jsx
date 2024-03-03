@@ -4,13 +4,13 @@ const Compnanies = () => {
   return (
     <>
     {/* Logos Section: Plain */}
-    <div className="  bg-gradient-to-tr from-indigo-100 via-purple-50 to-cyan-100 dark:from-indigo-950 dark:via-purple-950 dark:to-teal-950 dark:text-gray-100">
-      <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-32  animate-scroll max-w-screen-xl">
-        <div className="flex gap-16 text-center  max-w-screen-xl">
+    <div className="  bg-gradient-to-tr from-indigo-100 via-purple-50 to-cyan-100 :from-indigo-950 :via-purple-950 :to-teal-950 :text-gray-100">
+      <div className=" mx-auto px-4 py-16 lg:px-8 lg:py-32  animate-scroll ">
+        <div className="grid grid-flow-col gap-4 ">
           <div className="flex h-20 items-center justify-center ">
-            <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
+            <div className="flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -24,7 +24,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -38,7 +38,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -52,7 +52,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -66,7 +66,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 dark:text-purple-500"
+                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 :text-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -84,7 +84,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -98,7 +98,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 dark:text-purple-500"
+                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 :text-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -116,7 +116,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -130,7 +130,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -144,7 +144,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -158,7 +158,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -172,7 +172,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -186,7 +186,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -200,7 +200,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -214,7 +214,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -228,7 +228,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -242,7 +242,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center ">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
+                className="hi-solid hi-cube inline-block size-8 text-indigo-600 :text-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -256,7 +256,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-cursor-arrow-rays inline-block size-8 text-rose-600 dark:text-rose-500"
+                className="hi-solid hi-cursor-arrow-rays inline-block size-8 text-rose-600 :text-rose-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -274,7 +274,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 dark:text-purple-500"
+                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 :text-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -292,7 +292,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 dark:text-purple-500"
+                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 :text-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -310,7 +310,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 dark:text-purple-500"
+                className="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 :text-purple-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -328,7 +328,7 @@ const Compnanies = () => {
           <div className="flex h-20 items-center justify-center">
             <div className="inline-flex items-center space-x-2 text-2xl font-semibold">
               <svg
-                className="hi-solid hi-map-pin inline-block size-8 text-teal-600 dark:text-teal-500"
+                className="hi-solid hi-map-pin inline-block size-8 text-teal-600 :text-teal-500"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
