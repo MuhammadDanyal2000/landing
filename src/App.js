@@ -49,6 +49,8 @@ import image_21 from "./Assessts/image_21.jpeg"
 import image_24 from "./Assessts/image_24.jpeg"
 import Hero from "./Assessts/Hero.png"
 import { BrowserRouter } from 'react-router-dom';
+import Last from './componenets/Last';
+import Compnanies from './componenets/Compnanies';
 
 function App() {
   const [cookies, setCookies] = useState(true);
@@ -142,41 +144,39 @@ function App() {
             <div>
               <div className='md:mx-auto max-w-screen-xl pb-14'>
                 <div className="flex flex-col justify-center gap-5 py-10 font-sans   ">
-
-                  <h1 className="font-sans font-extrabold text-2xl md:text-4xl sm:4xl lg:text-5xl text-gray-700 text-center">Features</h1>
-                  <p className="font-sans text-lg text-center text-gray-500">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+                    <h1 className='text-center text-green-500 font-bold text-xl rounded-full px-5 py-1 bg-green-100 mx-auto w-fit'>Our Services</h1>
+                  <h1 className="font-sans font-extrabold text-2xl md:text-4xl sm:4xl lg:text-5xl text-gray-700 text-center">What we offer</h1>
+                  <p className="font-sans text-lg text-center text-gray-500 px-4">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                 </div>
-                <div className="flex gap-8 flex-wrap justify-evenly max-[872px]:flex-col px-6 ">
+                <div className="flex gap-8 flex-wrap justify-center max-[872px]:flex-col px-6 ">
 
-                  <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center ">
-                    <div className=""><img className="w-20 h-20" src={image_119}></img></div>
-                    <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
+                  <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center">
+                    <div className=""><img className="w-16 h-16" src={image_119}></img></div>
+                    <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
+                    <p className="text-base text-gray-500 font-medium ">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
-                  <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-                    <div className=""><img className="w-20 h-20" src={image_120}></img></div>
-                    <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
+                  <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center ">
+                    <div className=""><img className="w-16 h-16" src={image_119}></img></div>
+                    <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
+                    <p className="text-base text-gray-500 font-medium">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
 
-                  <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-                    <div className=""><img className="w-20 h-20" src={image_121}></img></div>
-                    <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
+                  <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center ">
+                    <div className=""><img className="w-16 h-16" src={image_119}></img></div>
+                    <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
+                    <p className="text-base text-gray-500 font-medium">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
-                  <div className="flex flex-col w-1/3 justify-center items-center bg-[#FFFFFF] px-10 py-8 gap-8 border rounded-3xl shadow-md max-[872px]:w-auto max-[872px]:items-center">
-                    <div className=""><img className="w-20 h-20" src={image_123}></img></div>
-                    <h1 className="text-3xl text-center font-popppins font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-lg font-Mulish font-normal text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full sm:py-3 sm:px-6 lg:py-4 lg:px-8 shadow-lg ring-2 ring-blue-500 ring-opacity-50">Learn More</button>
+                  <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center ">
+                    <div className=""><img className="w-16 h-16" src={image_119}></img></div>
+                    <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
+                    <p className="text-base text-gray-500 font-medium">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
 
                 </div>
               </div>
             </div>
+            {/* Section Companies */}
+            <Compnanies/>
             {/* Section5 */}
             <div className='bg-slate-200'>
               <div className='py-10 lg:py-20 px-4 max-w-screen-xl mx-auto flex flex-col gap-6 sm:gap-20 '>
@@ -329,7 +329,8 @@ function App() {
 
 
             {/* Section11 Integration*/}
-            <div className='flex gap-8 flex-col text-center py-16 '>
+            <div className='py-16'>
+            <div className='flex gap-8 flex-col text-center  '>
               <h1 className='font-sans text-3xl md:text-4xl lg:text-5xl sm:4xl font-extrabold whitespace-no-wrap text-gray-800 '>Integration
               </h1>
 
@@ -390,13 +391,17 @@ function App() {
                   <p className='font-extrabold text-xl text-gray-600  '>Google Analytics</p>
                 </div>
               </div>
-
+              
 
             </div>
+            <div className='text-center bg-gray-200 w-fit mx-auto rounded-full px-16 py-4 mt-6 object-fill text-base'>
+        <p className='text-gray-700'>Learn about the integerations <span className='text-green-500 font-bold cursor-pointer hover:text-green-600'>Here.</span></p>
+      </div>
+      </div>
 
             {/* Section12 */}
             {/* Section13 */}
-            {/* <HowWeWork/> */}
+            <Last/>
             {/* Section14 */}
             <Testinomial />
             {/* Section15 */}
@@ -407,7 +412,7 @@ function App() {
             {/* Section FAQ */}
             <div class=" m-2 space-y-2 py-20 max-w-screen-xl mx-auto px-5">
             <h1 className="" />
-                <span className="text-green-500 font-sans bg-white text-lg  font-bold px-6 py-2 rounded-[15px] text-center">
+                <span className="text-green-500 font-sans bg-green-100 text-lg  font-bold px-6 py-2 rounded-[15px] text-center">
                     FAQS
                 </span>
               <h1 className='font-sans text-3xl md:text-4xl lg:text-5xl sm:4xl font-extrabold whitespace-no-wrap text-gray-800 text-center pb-16 '>Frequently Ask Questions</h1>
@@ -537,8 +542,10 @@ function App() {
               
             </div>
             <Pricing />
+           
             {/* Section18 */}
           </div>
+         
         </div>
         {/* Footer */}
         <Footer />

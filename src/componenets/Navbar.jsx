@@ -1,5 +1,5 @@
 import React from "react";
-// import logo from "../../assets/logo-02.png";
+import Logo from "../Assessts/Logo1.png"
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
@@ -37,7 +37,7 @@ const Navbar = () => {
                     to="/"
                     className="h-full flex justify-between items-center text-discountBackground"
                 >
-                    <img src={"j"} alt="" className="w-12 h-12" />
+                    <img src={Logo} alt="" className="w-12 h-12" />
                 </Link>
                 <ul className="flex justify-center items-center space-x-12 ">
                     <li className="hover:text-discountBackground relative">
@@ -401,7 +401,7 @@ const Navbar = () => {
                     to="/"
                     className="h-full flex justify-between items-center text-discountBackground"
                 >
-                    <img src={"logo"} alt="" className="w-[120px] h-[120px]" />
+                    <img src={Logo} alt="" className="w-[80px] h-[80px]" />
                 </Link>
                 <div onClick={handleBarsClick}>
                     {!toggleSecondary ? (
