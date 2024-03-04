@@ -58,7 +58,7 @@ function App() {
   return (
     <BrowserRouter>
       <>
-        <div className="bg-sky-800 font-bold text-white text-center py-3 text-base w-auto">
+        <div className="bg-sky-800 hidden font-bold text-white text-center py-3 text-base w-auto sm:block">
           <p className="overflow-hidden">
             <span className='inline-block animate-slidein font-sans'> Get <span className='underline'>25%</span> off for 12 months: Use ### when you signup </span>
           </p>
@@ -100,32 +100,32 @@ function App() {
             <div>
               <div className='md:mx-auto max-w-screen-xl pb-14'>
                 <div className="flex flex-col justify-center gap-5 py-10 font-sans   ">
-                    <h1 className='text-center text-green-500 font-bold text-xl rounded-full px-5 py-1 bg-green-100 mx-auto w-fit'>Our Services</h1>
+                    <h1 className='text-center text-green-600 font-bold text-base rounded-full px-5 py-1 bg-green-100 mx-auto w-fit'>Our Services</h1>
                   <h1 className="font-sans font-extrabold text-2xl md:text-4xl sm:4xl lg:text-5xl text-gray-700 text-center">What we offer</h1>
-                  <p className="font-sans text-lg text-center text-gray-500 px-4">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+                  <p className="text-base font-medium leading-relaxed text-gray-600 text-center">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                 </div>
                 <div className="flex gap-8 flex-wrap justify-center max-[872px]:flex-col px-6 ">
 
                   <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center">
                     <div className=""><img className="w-16 h-16" src={image_119}></img></div>
                     <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-base text-gray-500 font-medium ">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+                    <p className="text-base text-center text-gray-500 font-medium sm:text-left ">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
                   <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center ">
                     <div className=""><img className="w-16 h-16" src={image_119}></img></div>
                     <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-base text-gray-500 font-medium">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+                    <p className="text-base text-center text-gray-500 font-medium sm:text-left">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
 
                   <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center ">
                     <div className=""><img className="w-16 h-16" src={image_119}></img></div>
                     <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-base text-gray-500 font-medium">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+                    <p className="text-base text-center text-gray-500 font-medium sm:text-left">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
                   <div className="flex flex-col w-1/3 h-fit bg-[#FFFFFF] px-8 py-6 gap-4  rounded-3xl shadow-none max-[872px]:w-auto max-[872px]:items-center ">
                     <div className=""><img className="w-16 h-16" src={image_119}></img></div>
                     <h1 className="text-2xl font-extrabold">Lorem Ipsum</h1>
-                    <p className="text-base text-gray-500 font-medium">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
+                    <p className="text-base text-center text-gray-500 font-medium sm:text-left">Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor Lorem Ipsum Sit amet Condor</p>
                   </div>
 
                 </div>
@@ -135,16 +135,16 @@ function App() {
             {/* <Compnanies/> */}
             {/* Section5 */}
             <div className='bg-slate-200'>
-              <div className='py-10 lg:py-20 px-4 max-w-screen-xl mx-auto flex flex-col gap-6 sm:gap-20 '>
+              <div className='py-10 lg:py-20 px-4 max-w-screen-xl mx-auto flex flex-col gap-6 md:gap-20 '>
 
                 {/* 1 */}
-                <div className='flex flex-col text-center max-w-lg mx-auto gap-16 lg:max-w-full lg:flex-row lg:text-left'>
-                  <div className='flex-1 pt-28'>
+                <div className='flex flex-col text-center max-w-lg mx-auto  sm:gap-10 lg:max-w-full lg:flex-row lg:text-left'>
+                  <div className='flex-1 pt-10 sm:pt-20'>
                     <div className='flex flex-col gap-6 '>
                       <h1 className='text-gray-700 leading-snug font-extrabold px-2 text-2xl md:text-4xl lg:text-4xl sm:3xl  whitespace-no-wrap '>Real-Time profit dashboard!</h1>
                       <p className=' font-semibold  text-gray-500'>With the click of a button, you can see your daily gross profit, profit after ad spend and even profit after your fixed costs.​ No more spreadsheets - react to changes in your business immediately.</p>
-                      <div className='flex flex-wrap gap-y-4 pt-4 text-gray-500 '>
-                        <div className='flex w-1/2 items-center gap-2'>
+                      <div className='flex flex-wrap  gap-y-4 pt-4 text-gray-500 '>
+                        <div className='flex w-1/2 items-center gap-2 '>
                           <img className='w-12 h-12' src={image_119} />
                           <p className='text-center font-bold'>Swift</p>
                         </div>
@@ -168,11 +168,11 @@ function App() {
                   </div>
                 </div>
                 {/* 2 */}
-                <div className='flex flex-col-reverse text-center max-w-lg mx-auto gap-16 lg:max-w-full lg:flex-row lg:text-left'>
+                <div className='flex flex-col-reverse text-center max-w-lg mx-auto sm:gap-10 lg:max-w-full lg:flex-row lg:text-left'>
                   <div className='flex-1 my-auto object-fill'>
                     <img className="object-fill" src={image_24} />
                   </div>
-                  <div className='flex-1 pt-28'>
+                  <div className='flex-1 sm:pt-20 pt-10'>
                     <div className='flex flex-col gap-6  '>
                       <h1 className=' leading-snug text-gray-700 font-extrabold px-2 text-2xl md:text-4xl lg:text-4xl sm:3xl  whitespace-no-wrap'>Engage Teach Google Ads to find profitable customers</h1>
                       <p className=' font-semibold  text-gray-500'>It will automatically enriches the algorithms with profit data to help them find the most profitable customers and order combinations.​ Set target goals in paid ads based on profit, instead of revenue.</p>
@@ -199,8 +199,8 @@ function App() {
 
                 </div>
                 {/* 3 */}
-                <div className='flex flex-col text-center max-w-lg mx-auto gap-16 lg:max-w-full lg:flex-row lg:text-left '>
-                  <div className='flex-1 pt-28'>
+                <div className='flex flex-col text-center max-w-lg mx-auto sm:gap-10 lg:max-w-full lg:flex-row lg:text-left '>
+                  <div className='flex-1 sm:pt-20 pt-10'>
                     <div className='flex flex-col gap-6  '>
                       <h1 className='leading-snug text-gray-700 font-extrabold px-2 text-2xl md:text-4xl lg:text-4xl sm:3xl  whitespace-no-wrap'>Unlock Easy Best practice conversion tracking</h1>
                       <p className=' font-semibold  text-gray-500'>We collect and send data via serverside-to-serverside integrations. Perhaps you’ve noticed the discrepancy in conversions between Google ads and your ecommerce platform?</p>
@@ -348,7 +348,7 @@ function App() {
 
             </div>
             <div className='text-center bg-gray-200 w-fit mx-auto rounded-full px-16 py-4 mt-6 object-fill text-base'>
-        <p className='text-gray-700'>Learn about the integerations <span className='text-green-500 font-bold cursor-pointer hover:text-green-600'>Here.</span></p>
+        <p className='text-gray-700'>Learn about the integerations <span className='text-green-600 font-bold cursor-pointer hover:text-green-700'>Here.</span></p>
       </div>
       </div>
 
@@ -358,10 +358,10 @@ function App() {
             <Testinomial />
             {/* Section FAQ */}
             <div class=" m-2 space-y-2 py-20 max-w-screen-xl mx-auto px-5">
-            <h1 className="" />
-                <span className="text-green-500 font-sans bg-green-100 text-lg  font-bold px-6 py-2 rounded-[15px] text-center">
+            
+                <h1 className="text-green-600 font-sans bg-green-100 text-base w-fit mx-auto  font-bold px-6 py-2 rounded-[15px] ">
                     FAQS
-                </span>
+                </h1>
               <h1 className='font-sans text-3xl md:text-4xl lg:text-5xl sm:4xl font-extrabold whitespace-no-wrap text-gray-800 text-center pb-16 '>Frequently Ask Questions</h1>
              
               <div

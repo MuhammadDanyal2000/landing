@@ -37,7 +37,7 @@ const Navbar = () => {
                     to="/"
                     className="h-full flex justify-between items-center text-discountBackground"
                 >
-                    <img src={Logo} alt="" className="w-12 h-12" />
+                    <img src={Logo} alt="" className="w-14 h-14" />
                 </Link>
                 <ul className="flex justify-center items-center space-x-12 ">
                     <li className="hover:text-discountBackground relative">
@@ -401,7 +401,7 @@ const Navbar = () => {
                     to="/"
                     className="h-full flex justify-between items-center text-discountBackground"
                 >
-                    <img src={Logo} alt="" className="w-[80px] h-[80px]" />
+                    <img src={Logo} alt="" className="w-10 h-10" />
                 </Link>
                 <div onClick={handleBarsClick}>
                     {!toggleSecondary ? (

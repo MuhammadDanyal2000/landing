@@ -13,11 +13,11 @@ const Last = () => {
                 <div className="mb-1 text-sm font-bold uppercase tracking-wider text-green-600 ">
                   Get Started
                 </div>
-                <h2 className="mb-4 text-4xl font-sans font-black text-gray-800">
+                <h2 className="mb-4 text-4xl font-sans font-black text-gray-800 ">
                   Grow your business
                   <span className="text-green-600 "> now</span>!
                 </h2>
-                <h3 className="text-base font-medium leading-relaxed text-gray-700 ">
+                <h3 className="text-base font-medium leading-relaxed text-gray-600 ">
                   Inspiring results from day one without the pain. Get your own
                   custom dashboard and start building amazing services.
                 </h3>
@@ -28,7 +28,7 @@ const Last = () => {
               <div>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center space-x-2 rounded-full border border-green-700 bg-green-700 px-6 py-3 font-semibold leading-6 text-white hover:border-green-600 hover:bg-green-600 hover:text-white focus:ring focus:ring-green-400 focus:ring-opacity-50 active:border-green-700 active:bg-green-700 "
+                  className="inline-flex items-center justify-center space-x-2 rounded-full border  bg-blue-600 px-6 py-3 font-semibold leading-6 text-white hover:border-blue-600 hover:bg-blue-600 hover:text-white focus:ring focus:ring-blue-400 focus:ring-opacity-50 active:border-blue-700 active:bg-blue-700 "
                 >
                   <svg
                     className="hi-mini hi-plus-circle inline-block size-5 opacity-50"
